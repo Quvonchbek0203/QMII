@@ -25,22 +25,22 @@ const Register = () => {
                 <p className='md:text-[20px] text-[18px]'>Get 100 Online Courses for free</p>
                 <h2 className='capitalize text-[30px] md:text-[40px] font-[900]'>Register to Get it</h2>
                 <div className='flex justify-center gap-5 mt-[40px]'>
-                    <p className='p-3 md:p-5 text-[white]  backdrop-blur text-center text-[15px] md:text-[20px] rounded-[10px]'>
+                    <h3 className='p-3 md:p-5 text-[white]  backdrop-blur text-center text-[15px] md:text-[20px] rounded-[10px]'>
                         <span>{date.getDate()}</span>
                         <p>Days</p>
-                    </p>
-                    <p className='p-3 md:p-5 text-[white] backdrop-blur text-center text-[15px] md:text-[20px] rounded-[10px]'>
+                    </h3>
+                    <h3 className='p-3 md:p-5 text-[white] backdrop-blur text-center text-[15px] md:text-[20px] rounded-[10px]'>
                         <span>{String(date.getHours()).padStart(2, '0')}</span>
                         <p>Hours</p>
-                    </p>
-                    <p className='p-3 md:p-5 text-[white] backdrop-blur text-center text-[15px] md:text-[20px] rounded-[10px]'>
+                    </h3>
+                    <h3 className='p-3 md:p-5 text-[white] backdrop-blur text-center text-[15px] md:text-[20px] rounded-[10px]'>
                         <span>{String(date.getMinutes()).padStart(2, '0')}</span>
                         <p>Mins</p>
-                    </p>
-                    <p className='p-3 md:p-5 text-[white] backdrop-blur text-center text-[15px] md:text-[20px] rounded-[10px]'>
+                    </h3>
+                    <h3 className='p-3 md:p-5 text-[white] backdrop-blur text-center text-[15px] md:text-[20px] rounded-[10px]'>
                         <span>{String(date.getSeconds()).padStart(2, '0')}</span>
                         <p>Secs</p>
-                    </p>
+                    </h3>
                 </div>
             </div>
             <div></div>
