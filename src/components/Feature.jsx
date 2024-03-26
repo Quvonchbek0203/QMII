@@ -39,7 +39,7 @@ const Feature = () => {
                 <span className=' text-[35px] md:text-[45px]'>{item.icon}</span>
                 <h1 className='text-[18px] md:text-[22px] font-bold'>{item.title}</h1>
                 <p className='line-clamp-3 text-[14px] md:text-[18px]'>{item.description}</p>
-                <p></p>
+                
             </div>
 
                 ))
